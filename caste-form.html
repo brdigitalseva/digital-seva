@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<title>जाति प्रमाण पत्र फॉर्म</title>
+<style>
+body{font-family:Mangal,Arial;margin:15px}
+h2,h3{text-align:center}
+.row{display:flex;gap:10px;margin-bottom:8px}
+.col{flex:1}
+input,select{width:100%;padding:5px}
+.box{border:1px solid #000;min-height:25px}
+button{padding:10px 20px;font-size:16px}
+@media print{
+button{display:none}
+input,select{
+border:none;
+outline:none;
+}
+body{
+margin:0;
+}
+}
+</style>
+</head>
+
+<body>
+
+<h3>Annexure-A</h3>
+<h2>जाति प्रमाण पत्र हेतु आवेदन</h2>
+
+<div class="row">
+<div class="col">आवेदक का नाम
+<input type="text"></div>
+</div>
+
+<div class="row">
+<div class="col">पिता का नाम
+<input type="text"></div>
+<div class="col">माता का नाम
+<input type="text"></div>
+</div>
+
+<div class="row">
+<div class="col">जन्म तिथि
+<input type="date"></div>
+<div class="col">लिंग
+<select>
+<option>पुरुष</option>
+<option>महिला</option>
+</select></div>
+</div>
+
+<div class="row">
+<div class="col">जाति
+<input type="text"></div>
+<div class="col">उप-जाति
+<input type="text"></div>
+</div>
+
+<div class="row">
+<div class="col">पूरा पता
+<input type="text"></div>
+</div>
+
+<div class="row">
+<div class="col">मोबाइल नंबर
+<input type="text"></div>
+</div>
+
+<p>मैं घोषणा करता/करती हूँ कि उपरोक्त जानकारी सही है।</p>
+
+<div class="row">
+<div class="col">दिनांक
+<input type="date"></div>
+<div class="col">स्थान
+<input type="text"></div>
+<div class="col">हस्ताक्षर
+<div class="box"></div></div>
+</div>
+
+<br>
+<button onclick="window.print()">Print / Save as PDF</button>
+
+<p style="font-size:12px">
+⚠️ यह एक निजी डिजिटल सेवा है। यह सरकारी वेबसाइट नहीं है।
+</p>
+
+</body>
+</html>
